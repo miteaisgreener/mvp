@@ -1,0 +1,24 @@
+<div id='container'>
+
+  <div ng-controller="MortgageController" ng-app="calculator" class="inputvalue">
+      
+      <label>Home Price:</label><br>
+        <input ng-model="homeprice" name="homePrice" type="number" required><br>
+      <label>Down Payment:</label><br>
+        <input ng-model="downpayment" name="downPayment" type="number" required><br>
+      <label>APR (%):</label><br>
+        <input ng-model="APR" name="APR" type="number" required><br>
+      <label>Loan Term (years):</label><br>
+        <input ng-model="loanterm" name="loanTerm" type="number" required><br>
+      <label>Home Insurance (Annual):</label><br>
+        <input ng-model="homeinsurance" name="homeInsurance" type="number" required><br>
+      <label>Monthly HOA:</label><br>
+        <input ng-model="monthlyHOA" name="monthlyHOA" type="number" required><br>
+      <button ng-click="getPayment()" class="btn"> Calculate </button>
+
+      <div>Your monthly payment is</div> 
+      <div> $ {{payment}} </div>
+
+  </div>
+
+</div>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html ng-app="calculator">
+  <head>
+    <meta charset="utf-8">
+    <title>Mortgage Calculator</title>
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+  </head>
+  <body>
+    <h1>Find Your Dream House</h1>
+
+    <nav class="navigation">
+      <ul>
+          <li><a href="#/mortgage">Monthly Payment</a></li>
+          <li><a href="#/preq">Prequalify</a></li>
+          <li><a href="#/zillow">Find Your Dream House</a></li>
+      </ul>
+    </nav>
+
+    <div ng-view></div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
+
+    <script src="/app.js"></script>
+    <script src="/mortgage.js"></script>
+    <script src="/preq.js"></script>
+    <script src="/zillow.js"></script>
+    <script src="/services.js"></script>
+
+
+
+
+
+  </body>
+</html>

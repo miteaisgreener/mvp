@@ -1,0 +1,99 @@
+body {
+    background-image: url("background.jpeg");
+}
+h1 {
+  color: #2569CF;
+  font-family: verdana;
+  font-weight: bold;
+  font-size: 35px;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 1px;
+  position: relative;
+}
+
+.inputvalue{
+  color: #4A4A4A;
+  font-family: verdana;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 1px;
+  position: relative;
+}
+
+input {
+  color: #4A4A4A;
+  font-family: verdana;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 1px;
+  position: relative;
+}
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #1d638f);
+  background-image: -moz-linear-gradient(top, #3498db, #1d638f);
+  background-image: -ms-linear-gradient(top, #3498db, #1d638f);
+  background-image: -o-linear-gradient(top, #3498db, #1d638f);
+  background-image: linear-gradient(to bottom, #3498db, #1d638f);
+  -webkit-border-radius: 35;
+  -moz-border-radius: 35;
+  border-radius: 35px;
+  text-shadow: 0px 0px 0px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 5px 35px 5px 35px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.navigation {
+  width: 100%;
+  height: 40px;
+  background-color: #eee;
+}
+
+.navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navigation li {
+  float: left;
+}
+
+.navigation li a {
+    width: 315px;
+    height: 32px;
+    line-height: 26px;
+    padding: 4px;
+    display: block;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+
+
+.navigation li a:hover {
+  background-color: #ddd;
+}
+
+.navigation li a.selected {
+  background-color: #ccc;
+}

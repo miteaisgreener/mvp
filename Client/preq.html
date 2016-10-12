@@ -1,0 +1,14 @@
+<div id='container'>
+
+  <div ng-controller="PreqController" ng-app="calculator" class="inputvalue">
+      
+      <label>Annual Income:</label><br>
+        <input ng-model="income" name='annualIncome' type="number" required><br>
+      <label>Any Other Monthly Payments:</label><br>
+        <input ng-model="otherpayments" name='otherMonthlyPayments' type="number" required><br>
+      <button ng-click="getPreq()" class="btn"> Calculate </button>
+      <div>Max you can spend on monthly houses payment</div>
+      <div> $ {{price}} </div>
+  </div>
+
+</div>

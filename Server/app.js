@@ -10,6 +10,12 @@ var parameters = {
 	zpid: 1111111
 };
 
+// var parameters = {
+// 	address: '632 callippe ct'
+// 	citystatezip: 'Brisbane, CA 94005'
+// };
+
+
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: true}))
 
@@ -26,10 +32,10 @@ app.post('/zillow', function(req,res){
 	// res.status(200).send(req.body);
 })
 
-zillow.get('GetZestimate',parameters)
-.then(function(results){
-	console.log(results);
-})
+// zillow.get('GetZestimate',parameters)
+// .then(function(results){
+// 	console.log(results);
+// })
 
 
 
